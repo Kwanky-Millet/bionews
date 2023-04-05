@@ -1,6 +1,6 @@
 from django.shortcuts import render
 import requests 
-from .models import newsArticle
+from .models import NewsArticle
 
 def index(request):
     url = ('http://newsapi.org/v2/top-headlines?'
